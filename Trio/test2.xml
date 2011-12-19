@@ -1,0 +1,76 @@
+<ios>
+	<puts text="Account Creation starting" />
+
+	<timestamp />
+
+	<tabbar>
+		<button name="Accounts" />
+	</tabbar>
+
+	<navbar index="0">
+		<button index="1" />
+	</navbar>
+
+	<table index="0">
+		<cell name="Account Name">
+			<textfield index="0" set="test account" />
+		</cell>
+	</table>
+
+	<navbar index="0">
+		<button name="Save" tap="true" />
+	</navbar>
+
+	<dump />
+
+	<table index="0">
+		<cell name="test account" assert="true" />
+		<cell name="Uniform Allies" assert="true" />
+		<cell name="test account" tap="true" />
+	</table>
+
+	<taptap x="0.4" y="0.5" />
+
+	<navbar index="1">
+		<button index="1" />
+	</navbar>
+
+	<navbar name="Tickets">
+		<button index="1" tap="true" />
+	</navbar>
+
+
+	<table index="0">
+		<cell index="1">
+			<textfield index="0" set="test case" />
+		</cell>
+	</table>
+
+	<navbar index="0">
+		<button name="Save" tap="true" />
+	</navbar>
+
+	<table index="0">
+		<cell name="test account" assert="true" />
+		<cell name="Uniform Allies" tap="true" />
+		<cell name="test account" tap="true" />
+	</table>
+
+	<navbar name="test account">
+		<button name="Edit" tap="true" />
+	</navbar>
+
+	<table index="1">
+		<scrollTo name="Remove Account" />
+		<scroll going="down" />
+		<cell name="Remove Account">
+			<button name="Remove Account" />
+		</cell>
+	</table>
+
+	<taptap x="0.5" y="0.5" />
+
+	<puts text="Done" />
+
+</ios>
+	

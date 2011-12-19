@@ -1,0 +1,133 @@
+<ios>
+	<puts text="Account Creation starting" />
+
+	<timestamp />
+
+	<mainview>
+		<tabbar>
+			<button name="Accounts" />
+		</tabbar>
+	</mainview>
+
+	<mainview>
+		<navbar index="0">
+			<button index="1" />
+		</navbar>
+	</mainview>
+
+	<mainview>
+		<table index="0">
+			<cell name="Account Name">
+				<textfield index="0" set="test account" />
+			</cell>
+		</table>
+	</mainview>
+
+	<mainview>
+		<navbar index="0">
+			<button name="Save" tap="true" />
+		</navbar>
+	</mainview>
+
+	<dump />
+
+	<mainview>
+		<table index="0">
+			<cell name="test account" assert="true" />
+		</table>
+	</mainview>
+
+	<mainview>
+		<table index="0">
+			<cell name="Uniform Allies" assert="true" />
+		</table>
+	</mainview>
+
+	<mainview>
+		<table index="0">
+			<cell name="test account" tap="true" />
+		</table>
+	</mainview>
+
+	<mainview>
+		<taptap x="0.4" y="0.5" />
+	</mainview>
+
+	<mainview>
+		<navbar index="1">
+			<button index="1" />
+		</navbar>
+	</mainview>
+
+	<mainview>
+		<navbar name="Tickets">
+			<button index="1" tap="true" />
+		</navbar>
+	</mainview>
+
+	<mainview>
+		<table index="0">
+			<cell index="1">
+				<textfield index="0" set="test case" />
+			</cell>
+		</table>
+	</mainview>
+
+	<mainview>
+		<navbar index="0">
+			<button name="Save" tap="true" />
+		</navbar>
+	</mainview>
+
+	<mainview>
+		<table index="0">
+			<cell name="test account" assert="true" />
+		</table>
+	</mainview>
+
+	<mainview>
+		<table index="0">
+			<cell name="Uniform Allies" tap="true" />
+		</table>
+	</mainview>
+
+	<mainview>
+		<table index="0">
+			<cell name="test account" tap="true" />
+		</table>
+	</mainview>
+
+	<mainview>
+		<navbar name="test account">
+			<button name="Edit" tap="true" />
+		</navbar>
+	</mainview>
+
+	<mainview>
+		<table index="1">
+			<scrollTo name="Remove Account" />
+		</table>
+	</mainview>
+
+	<mainview>
+		<table index="1">
+			<scroll going="down" />
+		</table>
+	</mainview>
+
+	<mainview>
+		<table index="1">
+			<cell name="Remove Account">
+				<button name="Remove Account" />
+			</cell>
+		</table>
+	</mainview>
+
+	<mainview>
+		<taptap x="0.5" y="0.5" />
+	</mainview>
+
+	<puts text="Done" />
+
+</ios>
+	
